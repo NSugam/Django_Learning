@@ -1,0 +1,24 @@
+E:\AA Coding\Django > 			pip install -m venv venv			(Install virtual environment)
+
+E:\AA Coding\Django\venv\Scripts > 		Activate venv				(Activate virtual environment)
+
+(venv) E:\AA Coding\Django> 			pip install django
+
+(venv) E:\AA Coding\Django\venv\Scripts >	django-admin startproject blog .
+
+(venv) E:\AA Coding\Django\venv\Scripts >	python manage.py makemigrations
+
+(venv) E:\AA Coding\Django\venv\Scripts >	python manage.py migrate
+
+(venv) E:\AA Coding\Django\venv\Scripts >	python manage.py runserver			(Start local server)
+
+					http://127.0.0.1:8000/			(Local server should start working)
+
+(venv) E:\AA Coding\Django\venv\Scripts >	Ctrl + c 					(Stop the server)
+
+(venv) E:\AA Coding\Django\venv\Scripts >	python manage.py createsuperuser		(Create new Admin User and Pswd)
+
+(venv) E:\AA Coding\Django\venv\Scripts >	python manage.py runserver			(Start local server)
+
+					http://127.0.0.1:8000/admin/login		(Now you can login from here)
+		
